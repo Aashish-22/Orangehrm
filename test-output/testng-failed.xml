@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Pagelayer.login">
+        <methods>
+          <include name="Step2"/>
+          <include name="logger"/>
+          <include name="tear"/>
+          <include name="Step8"/>
+          <include name="Step3"/>
+          <include name="Step4"/>
+          <include name="Step5"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Pagelayer.login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
